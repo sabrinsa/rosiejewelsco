@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(159, 198, 183);
+    margin: 0;
+}
+.shipping-announcement{
+    background-color: rgb(5, 94, 70);
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.logo{
+    width: 200px;
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(2, 62, 69);
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.category-text{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(2, 62, 69, 0.872);
+    padding: 10px;
+    margin-top: 33px;
+    text-decoration: none;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.cards-images{
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.cards-description-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 0;
+}
+.descriptions{
+    height: 180px;
+    margin: 0;
+}
+.shop-buttons-div{
+    display: flex;
+    justify-content: space-around;
+}
+.shop-buttons{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(2, 62, 69);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+footer{
+    background-color: teal;
+    color: rgba(255, 255, 255, 0.831);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.follow-us{
+    width: 50%;
+}

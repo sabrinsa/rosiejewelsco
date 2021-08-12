@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(159, 198, 183);
+    margin: 0;
+}
+.shipping-announcement{
+    background-color: rgb(5, 94, 70);
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.logo{
+    width: 200px;
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(2, 62, 69);
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.welcome-banner{
+    background-image: url("./welcome-banner.png");
+    padding-top: 111px;
+    padding-bottom: 111px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+.title{
+    color: white;
+    background-color: rgb(2, 62, 69);
+    padding: 7px;
+}
+.shop-all-button{
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(60, 131, 130, 0.618);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+}
+.category-text{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(2, 62, 69, 0.872);
+    padding: 10px;
+    margin-top: 33px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cards-images{
+    width: 500px;
+    padding: 30px;
+}
+.chakracollection-home{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: teal;
+    color: rgba(255, 255, 255, 0.831);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.follow-us{
+    width: 50%;
+}
