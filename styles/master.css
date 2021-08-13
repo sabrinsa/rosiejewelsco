@@ -31,8 +31,12 @@ nav{
     text-decoration: none;
     font-size: 20px;
 }
+.nav-links:hover, .shop-all-button:hover{
+    color: rgb(82, 255, 137);
+}
 .welcome-banner{
     background-image: url("./welcome-banner.png");
+    background-size: contain;
     padding-top: 111px;
     padding-bottom: 111px;
     display: flex;
@@ -74,6 +78,9 @@ nav{
     width: 500px;
     padding: 30px;
 }
+.cards-images:hover, .follow-us:hover{
+    opacity: 0.5;
+}
 .chakracollection-home{
     display: flex;
     justify-content: center;
@@ -92,4 +99,30 @@ footer{
 }
 .follow-us{
     width: 50%;
+}
+@media only screen and (max-width: 600px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .follow-us{
+        width: 500px;
+    }
+    .welcome-banner{
+        padding-top: 66px;
+        padding-bottom: 66px;
+        font-size: 30px;
+        background-size: 577px;
+    }
+    .shop-all-button{
+        font-size: 20px;   
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .category-text{
+        font-size: 25px;
+        padding: 8px;
+    }
 }
