@@ -105,7 +105,7 @@ footer{
     .shipping-announcement{
         display: flex;
         justify-content: center;
-        font-size: 12px;
+        font-size: 10px;
     }
     nav{
         justify-content: space-around;
@@ -126,13 +126,16 @@ footer{
         justify-content: center;
     }
     .follow-us{
-        width: 400px;
+        width: 333px;
+    }
+    .promo{
+        margin-bottom: 5px;
     }
     .cards-images{
-        width: 377px;
+        width: 333px;
     }
     .descriptions{
-        height: 140px;
+        height: 120px;
     }
     .category-text{
         font-size: 20px;
