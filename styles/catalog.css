@@ -102,6 +102,17 @@ footer{
     display: none;
 }
 @media only screen and (max-width: 600px){
+    .shipping-announcement{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+    nav{
+        justify-content: space-around;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
     .cards-original{
         display: none;
     }
@@ -115,16 +126,16 @@ footer{
         justify-content: center;
     }
     .follow-us{
-        width: 500px;
+        width: 400px;
     }
     .cards-images{
-        width: 500px;
+        width: 377px;
     }
     .descriptions{
-        height: 160px;
+        height: 140px;
     }
     .category-text{
-        font-size: 25px;
+        font-size: 20px;
         padding: 8px;
     }
 }
