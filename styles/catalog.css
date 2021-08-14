@@ -34,6 +34,18 @@ nav{
 .nav-links:hover, .shop-buttons:hover{
     color: rgb(82, 255, 137);
 }
+.category-selection{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.category-selection-mobile{
+    display: none;
+}
+.category-images{
+    width: 250px;
+    padding: 8px;
+}
 .category-text{
     font-size: 33px;
     display: flex;
@@ -66,7 +78,7 @@ nav{
     padding: 0;
 }
 .descriptions{
-    height: 180px;
+    height: 200px;
     margin: 0;
 }
 .shop-buttons-div{
@@ -81,6 +93,9 @@ nav{
     padding-bottom: 7px;
     padding-left: 12px;
     padding-right: 12px;
+}
+.category-selection-mobile{
+    display: none;
 }
 footer{
     background-color: teal;
@@ -113,17 +128,17 @@ footer{
         padding-right: 0px;
         margin-bottom: 10px;
     }
-    .cards-original{
-        display: none;
-    }
-    .cards-mobile{
-        display: block;
-    }
     .cards{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .cards-original{
+        display: none;
+    }
+    .cards-mobile{
+        display: block;
     }
     .follow-us{
         width: 333px;
@@ -135,10 +150,24 @@ footer{
         width: 333px;
     }
     .descriptions{
-        height: 120px;
+        height: 150px;
     }
     .category-text{
         font-size: 20px;
         padding: 8px;
+    }
+    .category-selection{
+        display: none;
+    }
+    .category-selection-mobile{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .category-images-mobile{
+        width: 200px;
+        padding-top: 5px;
     }
 }
