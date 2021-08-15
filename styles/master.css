@@ -48,16 +48,30 @@ nav{
     color: white;
     background-color: rgb(2, 62, 69);
     padding: 7px;
+    font-size: 40px;
 }
 .shop-all-button{
     text-decoration: none;
     font-size: 30px;
     display: flex;
     justify-content: center;
-    background-color: rgba(60, 131, 130, 0.618);
+    background-color: rgb(60, 131, 130);
     padding-top: 6px;
     padding-bottom: 6px;
     color: white;
+}
+.order-text{
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.872);
+    background-color: rgb(11, 38, 85);
+    padding: 10px;
+    margin-top: 33px;
+    text-decoration: none;
+}
+.order-text:hover{
+    color: rgb(71, 255, 154);
 }
 .category-text{
     font-size: 33px;
@@ -112,6 +126,12 @@ footer{
         padding-right: 0px;
         margin-bottom: 10px;
     }
+    .title{
+        font-size: 30px;
+    }
+    .order-text{
+        font-size: 27px;
+    }
     .cards{
         display: flex;
         flex-direction: column;
@@ -123,6 +143,7 @@ footer{
     }
     .follow-us{
         width: 333px;
+        margin-top: 20px;
     }
     .welcome-banner{
         padding-top: 66px;
