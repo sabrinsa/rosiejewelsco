@@ -46,6 +46,9 @@ nav{
     width: 250px;
     padding: 8px;
 }
+.category-images:hover, .follow-us:hover{
+    opacity: 0.5;
+}
 .order-text{
     font-size: 33px;
     display: flex;
@@ -56,14 +59,14 @@ nav{
     margin-top: 33px;
     text-decoration: none;
 }
-.order-text:hover{
+.order-text:hover, .category-text-go-up:hover{
     color: rgb(71, 255, 154);
 }
 .chakra-text{
     color: rgb(3, 36, 27);
     padding-top: 30px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 44px;
+    padding-right: 44px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -75,7 +78,21 @@ nav{
     background-color: rgba(2, 62, 69, 0.872);
     padding: 10px;
     margin-top: 33px;
+}
+.category-text-go-up{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(21, 110, 120, 0.872);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-decoration: none;
+}
+.cards-sections{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .cards{
     display: flex;
@@ -93,27 +110,44 @@ nav{
     margin: 0;
 }
 .cards-images-chakra{
-    width: 250px;
+    width: 277px;
     margin-top: 40px;
     padding-left: 12px;
 }
 .cards-description-div{
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
-    padding: 0;
+}
+.descriptions-text{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(3, 33, 33);
+    font-weight: 400;
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+.text-description-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.price-text{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(3, 33, 33);
+    font-weight: bolder;
+    font-size: 19px;
+    margin-top: 0;
 }
 .descriptions{
-    height: 200px;
-    margin: 0;
-}
-.cards-description-div-chakra{
+    height: 92px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
-    padding: 0;
-    margin-left: 40px;
-    margin-right: 40px;
+    justify-content: center;
 }
 .shop-buttons-div{
     display: flex;
@@ -127,9 +161,6 @@ nav{
     padding-bottom: 7px;
     padding-left: 12px;
     padding-right: 12px;
-}
-.category-selection-mobile{
-    display: none;
 }
 footer{
     background-color: teal;
@@ -145,10 +176,6 @@ footer{
 }
 .follow-us{
     width: 50%;
-}
-
-.cards-mobile{
-    display: none;
 }
 @media only screen and (max-width: 600px){
     .shipping-announcement{
@@ -172,12 +199,6 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    .cards-original{
-        display: none;
-    }
-    .cards-mobile{
-        display: block;
-    }
     .follow-us{
         width: 333px;
     }
@@ -188,24 +209,22 @@ footer{
         width: 333px;
     }
     .descriptions{
-        height: 150px;
-    }
-    .category-text{
-        font-size: 30px;
-        padding: 8px;
+        height: 99px;
     }
     .category-selection{
-        display: none;
-    }
-    .category-selection-mobile{
-        display: block;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .category-images-mobile{
-        width: 200px;
-        padding-top: 5px;
+    .category-text{
+        font-size: 30px;
+        padding: 8px;
+    }
+    .cards-sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
