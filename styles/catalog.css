@@ -96,9 +96,11 @@ nav{
 }
 .cards{
     display: flex;
-    justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 44px;
+    margin-right: 44px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -114,18 +116,10 @@ nav{
     margin-top: 40px;
     padding-left: 12px;
 }
-.cards-description-div{
-    display: flex;
-    justify-content: space-around;
-}
 .descriptions-text{
-    margin-left: 15px;
-    margin-right: 15px;
     color: rgb(3, 33, 33);
     font-weight: 400;
     font-size: 19px;
-    padding-left: 15px;
-    padding-right: 15px;
     display: flex;
     justify-content: center;
 }
@@ -148,10 +142,6 @@ nav{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-}
-.shop-buttons-div{
-    display: flex;
-    justify-content: space-around;
 }
 .shop-buttons{
     text-decoration: none;
@@ -198,6 +188,8 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
     }
     .follow-us{
         width: 333px;
@@ -209,7 +201,13 @@ footer{
         width: 333px;
     }
     .descriptions{
-        height: 99px;
+        height: 77px;
+    }
+    .descriptions-text{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .category-selection{
         display: flex;
@@ -226,5 +224,8 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .cards-description-div{
+        margin: 0;
     }
 }
