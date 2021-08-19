@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
 }
 .logo{
     width: 200px;
@@ -29,7 +30,10 @@ nav{
 .nav-links{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-family: great-vibes, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
 }
 .nav-links:hover, .shop-buttons:hover{
     color: rgb(82, 255, 137);
@@ -50,13 +54,17 @@ nav{
     opacity: 0.5;
 }
 .order-text{
-    font-size: 33px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     color: rgba(255, 255, 255, 0.872);
     background-color: rgb(11, 38, 85);
-    padding: 10px;
     margin-top: 33px;
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+.order-div{
     text-decoration: none;
 }
 .order-text:hover, .category-text-go-up:hover{
@@ -69,15 +77,19 @@ nav{
     padding-right: 44px;
     font-size: 20px;
     font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
 }
 .category-text{
-    font-size: 33px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     color: white;
     background-color: rgba(2, 62, 69, 0.872);
-    padding: 10px;
+    padding: 14px;
     margin-top: 33px;
+    font-family: great-vibes, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 .category-text-go-up{
     font-size: 22px;
@@ -89,10 +101,13 @@ nav{
     margin-top: 5px;
     margin-bottom: 5px;
     text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
 }
 .cards-sections{
     display: grid;
     grid-template-columns: 50% 50%;
+    font-family: 'Libre Baskerville', serif;
 }
 .cards{
     display: flex;
@@ -103,6 +118,7 @@ nav{
     margin-right: 44px;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: 'Libre Baskerville', serif;
 }
 .cards-images{
     width: 600px;
@@ -151,6 +167,8 @@ nav{
     padding-bottom: 7px;
     padding-left: 12px;
     padding-right: 12px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
 }
 footer{
     background-color: teal;
@@ -158,6 +176,7 @@ footer{
     padding: 16px;
     display: flex;
     justify-content: center;
+    font-family: 'Libre Baskerville', serif;
 }
 .promo{
     display: flex;
@@ -171,13 +190,16 @@ footer{
     .shipping-announcement{
         display: flex;
         justify-content: center;
-        font-size: 10px;
+        font-size: 12px;
     }
     nav{
         justify-content: space-around;
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom: 10px;
+    }
+    .nav-links{
+        font-size: 28px;
     }
     .order-text{
         font-size: 30px;
@@ -208,6 +230,13 @@ footer{
         margin-right: 20px;
         padding-left: 0;
         padding-right: 0;
+        font-size: 19px;
+    }
+    .chakra-text{
+        font-size: 19px;
+    }
+    .price-text{
+        font-size: 18px;
     }
     .category-selection{
         display: flex;
@@ -216,7 +245,7 @@ footer{
         justify-content: center;
     }
     .category-text{
-        font-size: 30px;
+        font-size: 33px;
         padding: 8px;
     }
     .cards-sections{
@@ -227,5 +256,9 @@ footer{
     }
     .cards-description-div{
         margin: 0;
+    }
+    .order-text{
+        font-size: 22px;
+        margin-bottom: 0;
     }
 }

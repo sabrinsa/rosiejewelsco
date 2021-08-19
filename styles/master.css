@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
 }
 .logo{
     width: 200px;
@@ -29,7 +30,10 @@ nav{
 .nav-links{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-family: great-vibes, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
 }
 .nav-links:hover, .shop-all-button:hover{
     color: rgb(82, 255, 137);
@@ -48,11 +52,13 @@ nav{
     color: white;
     background-color: rgb(2, 62, 69);
     padding: 7px;
-    font-size: 40px;
+    font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
 }
 .shop-all-button{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 26px;
     display: flex;
     justify-content: center;
     background-color: rgb(60, 131, 130);
@@ -61,26 +67,33 @@ nav{
     color: white;
 }
 .order-text{
-    font-size: 33px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     color: rgba(255, 255, 255, 0.872);
     background-color: rgb(11, 38, 85);
-    padding: 10px;
     margin-top: 33px;
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+.order-div{
     text-decoration: none;
 }
 .order-text:hover{
     color: rgb(71, 255, 154);
 }
 .category-text{
-    font-size: 33px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     color: white;
     background-color: rgba(2, 62, 69, 0.872);
     padding: 10px;
     margin-top: 33px;
+    font-family: great-vibes, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 .cards{
     display: flex;
@@ -105,6 +118,7 @@ footer{
     padding: 16px;
     display: flex;
     justify-content: center;
+    font-family: 'Libre Baskerville', serif;
 }
 .promo{
     display: flex;
@@ -118,13 +132,16 @@ footer{
     .shipping-announcement{
         display: flex;
         justify-content: center;
-        font-size: 10px;
+        font-size: 12px;
     }
     nav{
         justify-content: space-around;
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom: 10px;
+    }
+    .nav-links{
+        font-size: 28px;
     }
     .title{
         font-size: 30px;
@@ -157,7 +174,11 @@ footer{
         padding-bottom: 4px;
     }
     .category-text{
-        font-size: 22px;
+        font-size: 29px;
         padding: 8px;
+    }
+    .order-text{
+        font-size: 22px;
+        margin-bottom: 0;
     }
 }
