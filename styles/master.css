@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 15px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo{
     width: 200px;
@@ -53,7 +53,7 @@ nav{
     background-color: rgb(2, 62, 69);
     padding: 7px;
     font-size: 36px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
 }
 .shop-all-button{
@@ -74,7 +74,7 @@ nav{
     background-color: rgb(11, 38, 85);
     margin-top: 33px;
     padding: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
 .order-div{
@@ -84,7 +84,7 @@ nav{
     color: rgb(71, 255, 154);
 }
 .category-text{
-    font-size: 30px;
+    font-size: 33px;
     display: flex;
     justify-content: center;
     color: white;
@@ -113,12 +113,12 @@ nav{
     justify-content: center;
 }
 footer{
-    background-color: teal;
+    background-color: rgb(5, 94, 70);
     color: rgba(255, 255, 255, 0.831);
     padding: 16px;
     display: flex;
     justify-content: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .promo{
     display: flex;
@@ -132,7 +132,7 @@ footer{
     .shipping-announcement{
         display: flex;
         justify-content: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     nav{
         justify-content: space-around;
@@ -141,13 +141,10 @@ footer{
         margin-bottom: 10px;
     }
     .nav-links{
-        font-size: 28px;
+        font-size: 22px;
     }
     .title{
-        font-size: 30px;
-    }
-    .order-text{
-        font-size: 27px;
+        font-size: 25px;
     }
     .cards{
         display: flex;
@@ -178,7 +175,10 @@ footer{
         padding: 8px;
     }
     .order-text{
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 0;
+    }
+    footer p{
+        font-size: 11px;
     }
 }

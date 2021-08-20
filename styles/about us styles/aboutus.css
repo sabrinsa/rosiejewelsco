@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(159, 198, 183);
+    margin: 0;
+}
+.shipping-announcement{
+    background-color: rgb(5, 94, 70);
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo{
+    width: 200px;
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(2, 62, 69);
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+    font-family: great-vibes, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.nav-links:hover, .shop-all-button:hover{
+    color: rgb(82, 255, 137);
+}
+.aboutus-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(111, 154, 245);
+}
+.aboutus-banner-img{
+    width: 400px;
+}
+.title-who{
+    background-color: rgb(2, 40, 69);
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+.who h1{
+    font-family: great-vibes, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    padding: 20px;
+    color: white;
+}
+.who p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(3, 33, 33);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+footer{
+    background-color: rgb(5, 94, 70);
+    color: rgba(255, 255, 255, 0.831);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.follow-us{
+    width: 50%;
+}
+@media only screen and (max-width: 600px){
+    .shipping-announcement{
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+    }
+    nav{
+        justify-content: space-around;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    .nav-links{
+        font-size: 22px;
+    }
+    .aboutus-banner-img{
+        width: 144px;
+    }
+    .who h1{
+        font-size: 28px;
+    }
+    .who p{
+        font-size: 15px;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
