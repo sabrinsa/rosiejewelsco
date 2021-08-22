@@ -157,7 +157,7 @@ footer{
     }
     .follow-us{
         width: 333px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .welcome-banner{
         padding-top: 66px;
@@ -180,5 +180,8 @@ footer{
     }
     footer p{
         font-size: 11px;
+    }
+    .promo{
+        margin-bottom: 5px;
     }
 }
