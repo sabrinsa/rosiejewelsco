@@ -44,7 +44,7 @@ nav{
     background-color: rgb(111, 154, 245);
 }
 .aboutus-banner-img{
-    width: 400px;
+    height: 333px;
 }
 .title-who{
     background-color: rgb(2, 40, 69);
@@ -100,7 +100,7 @@ footer{
         font-size: 22px;
     }
     .aboutus-banner-img{
-        width: 144px;
+        height: 144px;
     }
     .who h1{
         font-size: 28px;
@@ -109,5 +109,9 @@ footer{
         font-size: 15px;
         padding-left: 22px;
         padding-right: 22px;
+    }
+    .follow-us{
+        margin-top: 10px;
+        width: 333px;
     }
 }
