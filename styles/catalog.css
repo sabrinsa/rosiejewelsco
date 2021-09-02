@@ -8,7 +8,7 @@ body{
     padding: 2px;
     display: flex;
     justify-content: center;
-    font-size: 17px;
+    font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo{
@@ -35,7 +35,7 @@ nav{
     font-weight: 400;
     font-size: 30px;
 }
-.nav-links:hover, .shop-buttons:hover{
+.nav-links:hover, .shop-all-button:hover{
     color: rgb(82, 255, 137);
 }
 .category-selection{
@@ -75,7 +75,7 @@ nav{
     padding-top: 30px;
     padding-left: 44px;
     padding-right: 44px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Oxygen', sans-serif;
     text-align: justify;
@@ -132,7 +132,7 @@ nav{
 .descriptions-text{
     color: rgb(3, 33, 33);
     font-weight: 400;
-    font-size: 19px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     text-align: justify;
@@ -146,12 +146,12 @@ nav{
     padding-right: 15px;
     color: rgb(3, 33, 33);
     font-weight: bolder;
-    font-size: 19px;
+    font-size: 16px;
     margin-top: 0;
     text-align: justify;
 }
 .descriptions{
-    height: 92px;
+    height: 66px;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
@@ -168,14 +168,30 @@ nav{
     padding-right: 12px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
+    font-size: 16px;
 }
 footer{
     background-color: rgb(5, 94, 70);
     color: rgba(255, 255, 255, 0.831);
     padding: 16px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imp-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.imp-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.831);
+    padding: 6px;
 }
 .promo{
     display: flex;
@@ -183,7 +199,7 @@ footer{
     margin-bottom: 15px;
 }
 .follow-us{
-    width: 50%;
+    width: 555px;
 }
 @media only screen and (max-width: 600px){
     .shipping-announcement{
@@ -219,7 +235,7 @@ footer{
         width: 333px;
     }
     .descriptions{
-        height: 77px;
+        height: 44px;
     }
     .descriptions-text, .chakra-text{
         margin-left: 20px;
@@ -238,7 +254,7 @@ footer{
         justify-content: center;
     }
     .category-text{
-        font-size: 33px;
+        font-size: 22px;
         padding: 8px;
     }
     .cards-sections{
@@ -251,16 +267,19 @@ footer{
         margin: 0;
     }
     .order-text{
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 0;
     }
     .shop-buttons{
         font-size: 13px;
     }
-    footer p{
-        font-size: 11px;
+    footer p, footer b, footer a{
+        font-size: 12px;
     }
     .category-text-go-up{
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .chakra-text, .descriptions-text, .price-text{
+        font-size: 12px;
     }
 }

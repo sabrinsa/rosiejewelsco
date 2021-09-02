@@ -35,39 +35,56 @@ nav{
     font-weight: 400;
     font-size: 30px;
 }
-.nav-links:hover, .shop-all-button:hover{
+.nav-links:hover, .shop-all-button:hover, .imp-links a:hover{
     color: rgb(82, 255, 137);
 }
-.aboutus-banner{
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
-    background-color: rgb(111, 154, 245);
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(3, 33, 33);
+    text-align: justify;
 }
-.aboutus-banner-img{
-    height: 333px;
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.title-who{
+.title{
     background-color: rgb(2, 40, 69);
-    display: flex;
-    justify-content: center;
-    margin-top: 33px;
-}
-.who h1{
     font-family: great-vibes, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 44px;
-    padding: 20px;
+    font-size: 29px;
     color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.who p{
+main p{
+    font-size: 18px;
     font-family: 'Oxygen', sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    color: rgb(3, 33, 33);
-    padding-left: 100px;
-    padding-right: 100px;
+}
+main h2{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main h3{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-lists i{
+    font-size: 18px;
+    color: rgb(3, 3, 33);
 }
 footer{
     background-color: rgb(5, 94, 70);
@@ -92,14 +109,6 @@ footer{
     color: rgba(255, 255, 255, 0.831);
     padding: 6px;
 }
-.promo{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-.follow-us{
-    width: 555px;
-}
 @media only screen and (max-width: 600px){
     .shipping-announcement{
         display: flex;
@@ -115,22 +124,20 @@ footer{
     .nav-links{
         font-size: 22px;
     }
-    .aboutus-banner-img{
-        height: 144px;
+    .title{
+        font-size: 18px;
     }
-    .who h1{
-        font-size: 28px;
+    main{
+        padding: 20px;
     }
-    .who p{
-        font-size: 12px;
-        padding-left: 22px;
-        padding-right: 22px;
+    main p, main h3{
+        font-size: 15px;
     }
-    .follow-us{
-        margin-top: 5px;
-        width: 333px;
+    main h2{
+        font-size: 18px;
+  
     }
-    footer p, footer b, footer a{
-        font-size: 12px;
+    footer{
+        font-size: 14px;
     }
 }

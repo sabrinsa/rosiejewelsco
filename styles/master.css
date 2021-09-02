@@ -117,8 +117,23 @@ footer{
     color: rgba(255, 255, 255, 0.831);
     padding: 16px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imp-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.imp-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.831);
+    padding: 6px;
 }
 .promo{
     display: flex;
@@ -126,7 +141,7 @@ footer{
     margin-bottom: 15px;
 }
 .follow-us{
-    width: 50%;
+    width: 555px;
 }
 @media only screen and (max-width: 600px){
     .shipping-announcement{
@@ -153,7 +168,7 @@ footer{
         justify-content: center;
     }
     .cards-images{
-        width: 333px;
+        width: 299px;
     }
     .follow-us{
         width: 333px;
@@ -178,8 +193,8 @@ footer{
         font-size: 18px;
         margin-bottom: 0;
     }
-    footer p{
-        font-size: 11px;
+    footer p, footer b, footer a{
+        font-size: 12px;
     }
     .promo{
         margin-bottom: 5px;
