@@ -67,7 +67,7 @@ nav{
 .order-div{
     text-decoration: none;
 }
-.order-text:hover, .category-text-go-up:hover{
+.order-text:hover, .category-text-go-up:hover, .imp-links a:hover{
     color: rgb(71, 255, 154);
 }
 .chakra-text{
@@ -132,10 +132,17 @@ nav{
 .descriptions-text{
     color: rgb(3, 33, 33);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     text-align: justify;
+}
+.descriptions-text-sahasrara{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 177px;
+    padding-right: 177px;
 }
 .text-description-div{
     display: grid;
@@ -151,7 +158,7 @@ nav{
     text-align: justify;
 }
 .descriptions{
-    height: 66px;
+    height: 77px;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
@@ -232,17 +239,16 @@ footer{
         margin-bottom: 5px;
     }
     .cards-images{
-        width: 333px;
+        width: 345px;
     }
     .descriptions{
-        height: 44px;
+        height: 55px;
     }
     .descriptions-text, .chakra-text{
         margin-left: 20px;
         margin-right: 20px;
         padding-left: 0;
         padding-right: 0;
-        font-size: 14px;
     }
     .price-text{
         font-size: 13px;
@@ -254,7 +260,7 @@ footer{
         justify-content: center;
     }
     .category-text{
-        font-size: 22px;
+        font-size: 24px;
         padding: 8px;
     }
     .cards-sections{
@@ -267,7 +273,7 @@ footer{
         margin: 0;
     }
     .order-text{
-        font-size: 16px;
+        font-size: 19px;
         margin-bottom: 0;
     }
     .shop-buttons{
@@ -280,6 +286,13 @@ footer{
         font-size: 16px;
     }
     .chakra-text, .descriptions-text, .price-text{
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .descriptions-text-sahasrara{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 15px;
     }
 }

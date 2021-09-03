@@ -84,7 +84,7 @@ main h3{
 }
 .text-lists i{
     font-size: 18px;
-    color: rgb(3, 3, 33);
+    color: rgb(3, 33, 33);
 }
 footer{
     background-color: rgb(5, 94, 70);
@@ -131,6 +131,9 @@ footer{
         padding: 20px;
     }
     main p, main h3{
+        font-size: 15px;
+    }
+    .text-lists i{
         font-size: 15px;
     }
     main h2{
