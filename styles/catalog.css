@@ -157,6 +157,15 @@ nav{
     margin-top: 0;
     text-align: justify;
 }
+.bestseller{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(6, 25, 57);
+}
 .descriptions{
     height: 77px;
     padding-left: 20px;
@@ -294,5 +303,14 @@ footer{
         padding-left: 0;
         padding-right: 0;
         font-size: 15px;
+    }
+    .bestseller{
+        padding: 8px;
+        color: white;
+        font-size: 12px;
+        margin-top: 0;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(6, 25, 57);
     }
 }

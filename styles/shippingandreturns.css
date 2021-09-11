@@ -58,11 +58,12 @@ main div{
     align-items: center;
 }
 .title{
-    background-color: rgb(2, 40, 69);
     font-family: great-vibes, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 22px;
+    padding: 8px;
+    background-color: rgb(2, 40, 69);
     color: white;
     margin-top: 30px;
     display: flex;

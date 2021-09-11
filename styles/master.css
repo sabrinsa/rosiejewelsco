@@ -45,16 +45,27 @@ nav{
     padding-bottom: 111px;
     display: flex;
     justify-content: center;
-    font-size: 50px;
     font-weight: 300;
 }
 .title{
     color: white;
     background-color: rgb(2, 62, 69);
-    padding: 7px;
+    padding: 9px;
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
+}
+.title2{
+    color: white;
+    background-color: rgb(15, 100, 109);
+    margin-top: 0;
+    margin-bottom: 33px;
+    padding: 22px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
 .shop-all-button{
     text-decoration: none;
@@ -161,6 +172,14 @@ footer{
     .title{
         font-size: 25px;
     }
+    .title2{
+        padding: 15px;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
     .cards{
         display: flex;
         flex-direction: column;
@@ -181,7 +200,7 @@ footer{
         background-size: 577px;
     }
     .shop-all-button{
-        font-size: 20px;   
+        font-size: 18px;   
         padding-top: 4px;
         padding-bottom: 4px;
     }
