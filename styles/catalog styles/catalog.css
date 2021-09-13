@@ -129,6 +129,36 @@ nav{
     padding-right: 30px;
     margin: 0;
 }
+.cards-images-options{
+    padding: 6px;
+    width: 100px;
+}
+.cards-images-options:hover{
+    opacity: 0.5;
+}
+.product-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+}
+.opt1{
+    display: block;
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.opt2, .opt3, .opt4, .opt5, .opt6{
+    display: none;
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
 .descriptions-text{
     color: rgb(3, 33, 33);
     font-weight: 400;
@@ -247,7 +277,7 @@ footer{
     .promo{
         margin-bottom: 5px;
     }
-    .cards-images{
+    .cards-images, .opt1, .opt2, .opt3, .opt4, .opt5, .opt6{
         width: 345px;
     }
     .descriptions{
