@@ -156,15 +156,11 @@ nav{
     margin-right: 100px;
 }
 .cards-images{
-    width: 500px;
+    width: 444px;
     padding: 30px;
 }
 .cards-images:hover, .follow-us:hover{
     opacity: 0.5;
-}
-.chakracollection-home{
-    display: flex;
-    justify-content: center;
 }
 footer{
     background-color: rgb(5, 94, 70);
